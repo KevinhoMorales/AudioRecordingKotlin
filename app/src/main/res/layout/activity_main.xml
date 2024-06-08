@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/start_recording_button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Empezar grabación" />
+
+        <Button
+            android:id="@+id/stop_recording_button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Parar de grabar" />
+
+        <Button
+            android:id="@+id/start_playing_button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Empezar audio" />
+
+        <Button
+            android:id="@+id/stop_playinh_button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Parar audio" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
